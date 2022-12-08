@@ -18,12 +18,19 @@ curl --location --request POST 'localhost:8080/api/v1/registration' \
 ```
 ### Tutorial
 Para utilizar o método de post e basta utilizar o formato
+
 {
+
 "firstName": "Jonathan",
+
 "lastName": "Silva",
+
 "email": "jonathan@gmail.com",
+
 "password": "password"
+
 }
+
 
 Com isso o usuário será registrado no banco de dados
 
