@@ -1,5 +1,6 @@
-package com.oliveiratrade.board.appuser;
+package com.oliveiratrade.board.Repository;
 
+import com.oliveiratrade.board.Model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

@@ -1,5 +1,6 @@
-package com.oliveiratrade.board.registration;
+package com.oliveiratrade.board.Controller;
 
+import com.oliveiratrade.board.Service.RegistrationService;
 import com.oliveiratrade.board.registration.RegistrationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @AllArgsConstructor
 public class RegistrationController {
 
-    private final com.oliveiratrade.board.registration.RegistrationService registrationService;
+    private final RegistrationService registrationService;
 
     @PostMapping
     public String register(@RequestBody RegistrationRequest request) {

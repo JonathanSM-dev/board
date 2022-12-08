@@ -1,5 +1,6 @@
-package com.oliveiratrade.board.appuser;
+package com.oliveiratrade.board.Model;
 
+import com.oliveiratrade.board.security.AppUserRole;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

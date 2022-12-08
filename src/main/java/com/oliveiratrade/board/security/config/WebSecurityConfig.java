@@ -1,7 +1,7 @@
 package com.oliveiratrade.board.security.config;
 
 
-import com.oliveiratrade.board.appuser.AppUserService;
+import com.oliveiratrade.board.Service.AppUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

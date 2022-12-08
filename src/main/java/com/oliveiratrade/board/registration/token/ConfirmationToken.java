@@ -1,7 +1,7 @@
 package com.oliveiratrade.board.registration.token;
 
 
-import com.oliveiratrade.board.appuser.AppUser;
+import com.oliveiratrade.board.Model.AppUser;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.oliveiratrade.board.email;
+package com.oliveiratrade.board.Repository;
 
 public interface EmailSender {
     void send(String to, String email);

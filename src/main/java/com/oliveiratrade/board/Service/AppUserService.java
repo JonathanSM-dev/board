@@ -1,5 +1,7 @@
-package com.oliveiratrade.board.appuser;
+package com.oliveiratrade.board.Service;
 
+import com.oliveiratrade.board.Model.AppUser;
+import com.oliveiratrade.board.Repository.AppUserRepository;
 import com.oliveiratrade.board.registration.token.ConfirmationToken;
 import com.oliveiratrade.board.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;

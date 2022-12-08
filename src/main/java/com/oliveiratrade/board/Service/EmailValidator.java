@@ -1,4 +1,4 @@
-package com.oliveiratrade.board.registration;
+package com.oliveiratrade.board.Service;
 
 import org.springframework.stereotype.Service;
 

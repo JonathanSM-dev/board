@@ -1,10 +1,10 @@
-package com.oliveiratrade.board.registration;
+package com.oliveiratrade.board.Service;
 
 
-import com.oliveiratrade.board.appuser.AppUser;
-import com.oliveiratrade.board.appuser.AppUserRole;
-import com.oliveiratrade.board.appuser.AppUserService;
-import com.oliveiratrade.board.email.EmailSender;
+import com.oliveiratrade.board.Model.AppUser;
+import com.oliveiratrade.board.security.AppUserRole;
+import com.oliveiratrade.board.Repository.EmailSender;
+import com.oliveiratrade.board.registration.RegistrationRequest;
 import com.oliveiratrade.board.registration.token.ConfirmationToken;
 import com.oliveiratrade.board.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;

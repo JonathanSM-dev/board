@@ -1,4 +1,4 @@
-package com.oliveiratrade.board.appuser;
+package com.oliveiratrade.board.security;
 
 public enum AppUserRole {
     USER,
